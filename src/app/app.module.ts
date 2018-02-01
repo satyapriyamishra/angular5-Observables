@@ -1,3 +1,4 @@
+import { DemoserviceService } from './demoservice.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -16,7 +17,7 @@ import { SecondComponent } from './second/second.component';
     HttpClientModule,
     HttpModule
   ],
-  providers: [],
+  providers: [DemoserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
