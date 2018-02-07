@@ -18,7 +18,7 @@ export class FirstComponent implements OnInit {
     this.demo.editUser("John");
   }
   editobj () {
-    this.demo.editObj("priya");
+    this.demo.editObj("priya",39);
   }
 
 }
